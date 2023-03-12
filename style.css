@@ -1,0 +1,88 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2? família= IBM+Plex+Sans:wght@500 &family= Merriweather:wght@700 & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    height:100vh ;
+    width: 100%;
+    background:radial-gradient(#EDBBFF, transparent);
+    font-family: "Poppins";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    margin: auto;
+    display: flex;
+    background-color:#c9c0c028;
+    gap: 2rem;
+    border-radius: 10px;
+}
+h3{
+    font-size: 24px;
+    line-height:5rem;
+    color: #141843;
+    text-align: center;
+    font-weight: bolder;
+    color: #141843;
+}
+.number{
+    font-size: 45px;
+    line-height: 3rem;
+    color: #141843;
+    font-weight: bolder;
+    position: relative;
+    top: .2rem;
+    text-align: center;
+}
+.descricao{
+    font-size: 15px;
+    font-weight: bolder;
+    position: relative;
+    top: 2rem;
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+}
+button{
+    width: 7rem;
+    height: 2.8rem;
+    margin-left: 1.4rem;
+    margin-top: 2.4rem;
+    border-radius: 10px;
+    background:linear-gradient(to right, #9F66FF, #DFCBFF) ;
+    border: none;
+    color: black;
+    font-weight: bolder;
+    font-family: "Poppins";
+}
+
+
+.card{
+    position: relative;
+    left: 0rem;
+    width: 10.3rem;
+    height: 18rem;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+}
+.card:hover{
+    transition: 0.3s;
+    transform: scale3d(1.1, 1.1, 1.1);
+    
+}
+
+@media screen and (max-width:590px){
+    .container{
+        flex-direction: column;
+        gap: 10px;  
+    }
+        
+}
+    
+    
